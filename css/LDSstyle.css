@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+body {margin: 0;padding: 0;color: #171617;}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #efdada, #ffffff);
+}
+
+header {
+    width: 2000x;
+    background-color: #eac0c0;
+    height: 300px;
+}
+
+
+
+
+/* ロゴ */
+header img {
+    width: 230px;
+    height: 130px;
+ margin-left: 100px;
+  display: inline-block;
+  padding: 5px;
+  background: linear-gradient(145deg, #fffefe, #eac0c0);
+}
+
+
+
+/* グローバルナビゲーション */
+#global_navi {
+    width: 980px;
+    clear:both;
+    overflow: hidden;
+    margin: 16px auto;
+}
+
+#global_navi ul {
+    list-style: none;
+    margin:0 ;
+    padding: 0;
+   
+}
+
+#global_navi ul li {
+    width: 195px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+
+#global_navi ul li a {
+    padding: 16px;
+    display: block;
+    background-color: #eac0c0;
+    color: #080808;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+
+#global_navi ul li a:hover {
+    background-color: #edebe7;
+    border-bottom: 5px solid #f49e9e;
+}
+
+
+
+/* ダウンロードリンクのサイズ */
+#footer_contact img {
+  width: 200px;
+  height: auto;
+  margin: 0 0 50px 0;
+}
+
+#footer_contact img {
+    width: 0 200px;
+    float: left;
+    margin-right: 100px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+
+/* メインビジュアルスライドショー */
+
+#main_visual  {
+    width: 900px;
+    margin: 0px 50px 0px 200px;
+   
+}
+
+#main_visual img {
+  position: absolute;
+  object-fit: cover;
+  opacity: 0;
+  animation: slideShow 25s infinite;
+   border:  7px solid #eac0c0
+}
+
+
+#main_visual img:nth-child(1) { animation-delay: 0s; }
+#main_visual img:nth-child(2) { animation-delay: 5s; }
+#main_visual img:nth-child(3) { animation-delay: 10s; }
+#main_visual img:nth-child(4) { animation-delay: 15s; }
+#main_visual img:nth-child(5) { animation-delay: 20s; }
+
+
+@keyframes slideShow {
+  0%   { opacity: 0; }
+  8%   { opacity: 1; }
+  20%  { opacity: 1; }
+  28%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* フッター高さ */
+#main_visual {
+  width: 800px;
+  margin: 0px 50px 0px 200px;
+  position: relative;  
+  height: 700px;       
+}
+
+
+
+
+
+/* ここから世界観*/
+#World h1 {
+   text-align: center;
+}
+
+#World h1{
+    font-size: 50px;
+}
+
+#mirai img {
+    width: 700px;
+    height: 450px;
+    float: right;
+    margin: 100px 70px 0 100px;
+  
+ border: 13px solid #eac0c0;
+  padding: 3px;   
+}
+
+#mirai h2 { 
+    font-size: 40px;
+   position: relative;
+   left: 100px;
+}
+
+#mirai h2 {
+    width: 400px;
+    height: 60px;
+}
+
+#mirai h2 { 
+     border-left: 8px solid #eac0c0;
+     padding: 10px 15px;
+     background: #f7eeee;
+}
+
+#mirai p {
+    font-size: 18px;
+   position: relative;
+   left: 100px;
+   top: 50px;
+}
+
+#batol img {
+    width: 800px;
+    height: 550px;
+    float: left;
+   margin: 0 0 50px 0;
+   border: 13px solid #eac0c0;
+  padding: 3px;   
+}
+
+#batol h2 {
+    width: 500px;
+    height: 70px;
+}
+
+#batol h2 {
+    font-size: 29px;
+   margin: 500px 0 0 900px;
+   border-left: 8px solid #eac0c0;
+     padding: 10px 15px;
+     background: #f7eeee;
+}
+
+#batol p {
+    font-size: 18px;
+    position: relative;
+   left: 35px;
+   top: 50px;
+}
+
+#batol2 img {
+    width: 350px;
+    height: 460px;
+    float: right;
+    margin-right: 100px;
+    animation: float 2s ease-in-out infinite;
+}
+
+#Evol h2 {
+    width: 500px;
+    margin-top: 500px;
+    font-size: 40px;
+    border-left: 8px solid #eac0c0;
+    padding: 10px 15px;
+    background: #f7eeee;
+}
+
+
+#Evol img {
+    width: 700px;
+    height: 550px;
+    float: right;
+    margin: 100px 70px 0 100px;
+   border: 13px solid #eac0c0;
+  padding: 3px;   
+}
+
+#Evol p {
+    font-size: 18px;
+}
+
+
+
+#sin img {
+    width: 450px;
+    height: 550px;
+    animation: float 2s ease-in-out infinite;
+}
+
+
+
+/* ここからキャラクター */
+#character h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* キャラクター画像調整 */
+ #character img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+  margin: 0 0 0 100px;
+}
+
+#character ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#character ul li{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 35px;
+     font-weight: bold;
+}
+  
+#character img {
+    border: 10px solid #eac0c0;
+    border-radius: 15px;    
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+#character img:hover {
+  transform: scale(1.05);
+}
+
+/* キャラプロフィール */
+#rei1 img {
+    margin-left: 130px;
+    margin-top: 100px;
+}
+
+#rei2 img {
+    width: 700px;
+    height: 700px;
+    margin-left: 650px;
+    margin-top: -800px;
+     display: inline-block;
+  padding: 8px;
+  background: linear-gradient(145deg, #fffefe, #eac0c0);
+}
+
+#yajirusi img {
+    width: 300px;
+    height: 400px;
+    margin-top: -490px;
+}
+
+#yajirusi img:hover {
+  transform: scale(1.25);
+}
+
+#yajirusi2 img {
+    width: 280px;
+    height: 400px;
+    margin-left: 1250px;
+    margin-top: -1500px;
+}
+
+#yajirusi2 img:hover {
+  transform: scale(1.25);
+}
+
+
+/* ここからゲームの特徴 */
+#game h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#story h2 { 
+    font-size: 35px;
+   position: relative;
+   left: 700px;
+   top: 100px;
+    width: 550px;
+    border-left: 8px solid #eac0c0;
+    padding: 10px 15px;
+    background: #f7eeee;
+}
+
+#story img {
+    width: 550px;
+    height: 700px;
+    float: right;
+    margin-top: -400px;
+    animation: float 2s ease-in-out infinite;
+}
+
+
+
+#story p {
+   
+     font-size: 23px;
+      position: relative;
+   left: 800px;
+   top: 200px;
+}
+
+#vo1 {
+  width: 500px;
+  height: 950px;
+  object-fit: cover;
+ margin-left: 100px;
+}
+
+#action h2 { 
+    font-size: 35px;
+   position: relative;
+   left: 150px;
+   top: 100px;
+    width: 550px;
+    border-left: 8px solid #eac0c0;
+    padding: 10px 15px;
+    background: #f7eeee;
+}
+
+
+
+#vo {
+    width: 750px;
+    height: 380px;
+    object-fit: cover;
+    margin-left: 750px;
+}
+
+
+
+#action p {
+     font-size: 22px;
+      position: relative;
+  left: 80px;
+   top: 250px;
+}
+
+#st h2 { 
+    font-size: 35px;
+   position: relative;
+   left: 800px;
+   top: 100px;
+    width: 550px;
+    border-left: 8px solid #eac0c0;
+    padding: 10px 15px;
+    background: #f7eeee;
+}
+
+#st img {
+    width: 500px;
+    height: 650px;
+     object-fit: cover;
+     margin-top: -50px;
+     margin-left: 100px;
+     
+}
+
+#st2 img {
+    width: 550px;
+    height: 700px;
+    float: right;
+    margin-top: -400px;
+    animation: float 2s ease-in-out infinite;
+}
+
+#st p {
+    font-size: 23px;
+    margin-top: 200px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -500px;
+}
+
+#tukisoi h2 { 
+    font-size: 35px;
+   position: relative;
+  left: 50px;
+   top: 100px;
+    width: 550px;
+    border-left: 8px solid #eac0c0;
+    padding: 10px 15px;
+    background: #f7eeee;
+}
+
+#tukisoi p {
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 200px;
+}   
+
+ #gallery img {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+  margin: 0 0 0 100px;
+  padding: 20px 25px;
+    background: #edcece;
+}
+
+#gallery ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#gallery ul li{
+   margin-top: 100px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#story img {
+    float: right;
+    margin-right: 200px;
+    margin-top: 150px;
+    width: 600px;
+    height: 700px;
+}
+
+#st p img {
+    width: 650px;
+    height: 750px;
+    margin-top: -50px;
+}
+
+
+
+
+/* ここから魅力 */
+#mi1 h1 {
+    font-size: 40px;
+    text-align: center;    
+}
+
+#mi1 h2{
+    font-size: 30px;
+       margin-left: 500px;
+    width: 550px;
+    text-align: center;
+     border-left: 8px solid #eac0c0;
+    padding: 10px 15px;
+    background: #f7eeee;
+}
+
+#mi1 p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#mi1 img {
+    width: 350px;
+    height: 650px;
+    float: right;
+    margin-top: -700px;
+  animation: float 2s ease-in-out infinite;
+}
+
+/* アニメーション */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+#mi2 img {
+    width: 500px;
+    height: 700px;
+    float: left;
+    margin-top: -1200px;
+    animation: float 2s ease-in-out infinite;
+}
